@@ -5,7 +5,7 @@ require 'cocoapods_watch.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = "cocoapods-watch"
-  spec.version       = Pod::Command::Watch::VERSION
+  spec.version       = CocoaPodsWatch::VERSION
   spec.authors       = ["Marin Usalj"]
   spec.summary       = %q{CocoaPods plugin that watches your Podfile and installs pods}
   spec.homepage      = "https://github.com/supermarin/cocoapods-watch"
